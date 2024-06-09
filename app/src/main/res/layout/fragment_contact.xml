@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Instagram URL" />
+
+    <Button
+        android:id="@+id/buttonSaveContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Contact" />
+
+    <Button
+        android:id="@+id/buttonViewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Contact" />
+
+    <LinearLayout
+        android:id="@+id/contactDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/textViewInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social" />
+    </LinearLayout>
+</LinearLayout>

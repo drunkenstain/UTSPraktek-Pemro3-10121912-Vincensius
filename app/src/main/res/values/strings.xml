@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="delete">Delete</string>
+    <string name="add_friend">Delete</string>
+</resources>

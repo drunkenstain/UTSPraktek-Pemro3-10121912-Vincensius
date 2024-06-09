@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/nav_daily"
+        android:title="Daily"
+        android:icon="@drawable/ic_daily" />
+    <item
+        android:id="@+id/nav_other"
+        android:title="Other"
+        android:icon="@drawable/ic_other" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+</menu>
